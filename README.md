@@ -32,20 +32,11 @@
 - 后端接口：http://localhost:8081
 - 默认账号：admin / admin123
 
-
-## 在线体验
-
-- admin/admin123  
-- 陆陆续续收到一些打赏，为了更好的体验已用于演示服务器升级。谢谢各位小伙伴。
-
-演示地址：http://vue.ruoyi.vip  
-文档地址：http://doc.ruoyi.vip
-
 ## 演示图
 
 <table>
     <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/cd1f90be5f2684f4560c9519c0f2a232ee8.jpg"/></td>
+        <td><img src="https://github.com/yanmo18/vegetable-system/blob/b1cf868ed7df3d85f95c509b4b0ac6226481d82f/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-06-29%20143749.png"/></td>
         <td><img src="https://oscimg.oschina.net/oscnet/1cbcf0e6f257c7d3a063c0e3f2ff989e4b3.jpg"/></td>
     </tr>
     <tr>
