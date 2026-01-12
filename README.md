@@ -1,7 +1,7 @@
 <p align="center">
 	蔬菜订购管理系统
 </p>
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">RuoYi v3.9.0</h1>
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">fruit</h1>
 <h4 align="center">基于SpringBoot+Vue前后端分离的Java快速开发框架</h4>
 <p align="center">
 	基于 RuoYi-Vue 二次开发的前后端分离蔬菜订购管理系统，适配生鲜商户、社区团购、农产品企业的订购/库存/订单全流程管理。
