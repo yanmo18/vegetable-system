@@ -1,0 +1,18 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.system.mapper.VisitorMessageMapper">
+    <select id="selectMessageList" resultType="VisitorMessage">
+        SELECT * FROM sys_visitor_message
+        <where>
+            <if test="visitorName != null and visitorName != ''">
+                AND visitor_name LIKE CONCAT('%', #{visitorName}, '%')
+            </if>
+        </where>
+        ORDER BY create_time DESC
+    </select>
+    <insert id="insertMessage" parameterType="VisitorMessage">
+        INSERT INTO sys_visitor_message (visitor_name, visitor_email, content, status, create_time)
+        VALUES (#{visitorName}, #{visitorEmail}, #{content}, #{status}, #{createTime})
+    </insert>
+</mapper>
